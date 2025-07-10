@@ -1,0 +1,47 @@
+body{
+    padding: 90px;
+}
+.main{
+    background-color: pink;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+
+
+}
+.flex-column {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    align-items: stretch;
+}
+.button {
+    display: flex;
+    justify-content: center;   
+    margin-top: 20px;
+    align-items: center;
+    /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); */
+    transition: box-shadow 0.3s ease;
+}
+.fancy-button{
+    padding: 12px 24px;
+    background-color: #7a9cff;
+    color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.fancy-button:hover {
+  background-color: #5c7eea;        /* darker on hover */
+  transform: translateY(-2px);
+}
+
+.fancy-button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
